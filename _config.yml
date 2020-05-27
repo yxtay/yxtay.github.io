@@ -13,25 +13,81 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: YuXuan Tay
+title_separator: "-"
+subtitle: My Personal Blog on GitHub Pages with Jekyll
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+url: https://yxtay.github.io
+baseurl: /
+repository: yxtay/yxtay.github.io
+teaser:
+logo:
+
+name: YuXuan Tay
+email: wyextay@gmail.com
+twitter_username: yxtay
+github_username: yxtay
+
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
 search: true
+search_provider: lunr # lunr (default), algolia, google
+
+# jekyll-seo-tag settings
+twitter:
+  username: yxtay
+facebook:
+  username:
+og_image:
+social:
+  name: YuXuan Tay
+  links:
+    - 
+webmaster_verifications:
+  google: 
+  bing: 
+  alexa: 
+  yandex: 
+  baidu: 
+
+# analytics
+analytics:
+  provider: false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id:
+    anonymize_ip: # true, false (default)
+
+# github fixed values
+# https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#configuring-jekyll-in-your-github-pages-site
+lsi: false
+safe: true
+source: . # [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # Build settings
-markdown: kramdown
+github: # to remove github metadata warning: https://github.com/github/pages-gem/issues/399
+  - metadata
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 5 # amount of posts to show
+timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -50,27 +106,39 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
+  # github plugins
+  # https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
+  - jekyll-coffeescript
+  - jekyll-default-layout
   - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  # end github plugins
+  - jekyll-sitemap
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: YuXuan Tay
+  avatar: /assets/images/bio-photo.jpg
+  bio: My awesome biography constrained to a sentence or two goes here.
+  location: Singapore
+  email: wyextay@gmail.com
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://yxtay.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/yxtay"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/yxtay"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
@@ -79,10 +147,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/yxtay"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/yxtay"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"

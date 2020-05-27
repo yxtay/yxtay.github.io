@@ -15,55 +15,51 @@
 # in the templates via {{ site.myvariable }}.
 title: YuXuan Tay
 title_separator: "-"
-subtitle: My Personal Blog on GitHub Pages with Jekyll
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+name: YuXuan Tay
+subtitle: Thoughts on Applied Data Science Practices
+description: >-
+  I am a data scientist from Singapore.
+  This blog is for my occasional thoughts on applied data science practices.
 url: https://yxtay.github.io
-baseurl: /
+baseurl: 
 repository: yxtay/yxtay.github.io
 teaser:
 logo:
 
-name: YuXuan Tay
-email: wyextay@gmail.com
-twitter_username: yxtay
-github_username: yxtay
-
-
+# comments
 comments:
-  provider: "utterances"
+  provider: utterances
   utterances:
-    theme: "github-light" # "github-dark"
-    issue_term: "pathname"
+    theme: github-light # github-dark
+    issue_term: pathname
 
+# search
 search: true
 search_provider: lunr # lunr (default), algolia, google
+google:
+  search_engine_id: "012049118435335239890:yyutqdlocqn"
 
 # jekyll-seo-tag settings
 twitter:
   username: yxtay
 facebook:
-  username:
+  username: yxtay
 og_image:
 social:
-  name: YuXuan Tay
   links:
-    - 
+    - https://linkedin.com/in/yxtay
+    - https://twitter.com/yxtay
+    - https://github.com/yxtay
+    - https://facebook.com/yxtay
 webmaster_verifications:
-  google: 
-  bing: 
-  alexa: 
-  yandex: 
-  baidu: 
+  google: wZvWB-E-2k1v7HV_pz9J0LT2PEqu0_zB9UfjXukklnY
 
 # analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "custom"
+  provider: google-gtag # false (default), google, google-universal, custom
   google:
-    tracking_id:
-    anonymize_ip: # true, false (default)
+    tracking_id: UA-167766744-1
+    anonymize_ip: true # true, false (default)
 
 # github fixed values
 # https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#configuring-jekyll-in-your-github-pages-site
@@ -82,7 +78,7 @@ kramdown:
 github: # to remove github metadata warning: https://github.com/github/pages-gem/issues/399
   - metadata
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: air # default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 # Outputting
 permalink: /:categories/:title/
 paginate_path: /page:num/
@@ -126,34 +122,42 @@ plugins:
 author:
   name: YuXuan Tay
   avatar: /assets/images/bio-photo.jpg
-  bio: My awesome biography constrained to a sentence or two goes here.
+  bio: Data Scientist from Singapore. Interest in Applied Machine Learning and Engineering.
   location: Singapore
-  email: wyextay@gmail.com
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://yxtay.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/yxtay"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/yxtay"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: Email
+      icon: fas fa-fw fa-envelope
+      url: mailto:wyextay@gmail.com
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://linkedin.com/in/yxtay
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+      url: https://twitter.com/yxtay
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/yxtay
+    - label: Facebook
+      icon: fab fa-fw fa-facebook-square
+      url: https://facebook.com/yxtay
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/yxtay"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/yxtay"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: Email
+      icon: fas fa-fw fa-envelope
+      url: mailto:wyextay@gmail.com
+    - label: LinkedIn
+      icon: fab fa-fw fa-linkedin
+      url: https://linkedin.com/in/yxtay
+    - label: Twitter
+      icon: fab fa-fw fa-twitter-square
+      url: https://twitter.com/yxtay
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/yxtay
+    - label: Facebook
+      icon: fab fa-fw fa-facebook-square
+      url: https://facebook.com/yxtay
 
 defaults:
   # _posts
@@ -169,7 +173,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: _pages
       type: pages
     values:
       layout: single

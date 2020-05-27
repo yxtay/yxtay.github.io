@@ -19,7 +19,8 @@ name: YuXuan Tay
 subtitle: Thoughts on Applied Data Science Practices
 description: >-
   I am a data scientist from Singapore.
-  This blog contains my occasional thoughts on applied data science practices.
+  This blog contains my occasional thoughts on applied data science
+  and machine learninig engineering practices.
 teaser:
 logo: 
 url: https://yxtay.github.io
@@ -121,7 +122,7 @@ plugins:
 author:
   name: YuXuan Tay
   avatar: /assets/images/bio-photo.jpg
-  bio: Data Scientist from Singapore. Interest in Applied Machine Learning and Engineering.
+  bio: Data Scientist from Singapore. Interest in Applied Data Science and Machine Learning Engineering.
   location: Singapore
   links:
     - label: Email

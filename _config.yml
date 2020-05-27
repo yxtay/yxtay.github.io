@@ -20,11 +20,11 @@ subtitle: Thoughts on Applied Data Science Practices
 description: >-
   I am a data scientist from Singapore.
   This blog is for my occasional thoughts on applied data science practices.
+teaser:
+logo: 
 url: https://yxtay.github.io
 baseurl: 
 repository: yxtay/yxtay.github.io
-teaser:
-logo:
 
 # comments
 comments:
@@ -50,7 +50,6 @@ social:
     - https://linkedin.com/in/yxtay
     - https://twitter.com/yxtay
     - https://github.com/yxtay
-    - https://facebook.com/yxtay
 webmaster_verifications:
   google: wZvWB-E-2k1v7HV_pz9J0LT2PEqu0_zB9UfjXukklnY
 
@@ -137,9 +136,6 @@ author:
     - label: GitHub
       icon: fab fa-fw fa-github
       url: https://github.com/yxtay
-    - label: Facebook
-      icon: fab fa-fw fa-facebook-square
-      url: https://facebook.com/yxtay
 
 footer:
   links:
@@ -155,9 +151,6 @@ footer:
     - label: GitHub
       icon: fab fa-fw fa-github
       url: https://github.com/yxtay
-    - label: Facebook
-      icon: fab fa-fw fa-facebook-square
-      url: https://facebook.com/yxtay
 
 defaults:
   # _posts

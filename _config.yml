@@ -43,16 +43,12 @@ google:
 # jekyll-seo-tag settings
 twitter:
   username: yxtay
-facebook:
-  username: yxtay
-og_image:
 social:
   links:
     - https://linkedin.com/in/yxtay
     - https://twitter.com/yxtay
     - https://github.com/yxtay
-webmaster_verifications:
-  google: wZvWB-E-2k1v7HV_pz9J0LT2PEqu0_zB9UfjXukklnY
+google_site_verification: wZvWB-E-2k1v7HV_pz9J0LT2PEqu0_zB9UfjXukklnY
 
 # analytics
 analytics:
@@ -111,13 +107,13 @@ plugins:
   - jekyll-optional-front-matter
   - jekyll-paginate
   - jekyll-readme-index
-  - jekyll-titles-from-headings
   - jekyll-relative-links
+  - jekyll-titles-from-headings
   # end github plugins
-  - jekyll-sitemap
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
+  - jekyll-sitemap
+  - jemoji
 
 author:
   name: YuXuan Tay

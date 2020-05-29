@@ -1,4 +1,5 @@
 # yxtay.github.io
 
-My personal blog with Jekyll on GtitHub Pages.
+Thoughts on Applied Data Science and Machine Learning Engineering.
+
 [yxtay.github.io](https://yxtay.github.io)

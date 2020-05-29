@@ -10,7 +10,7 @@ I build end-to-end machine learning systems to make business impact.
 This includes developing data transformation pipelines, model development, 
 model training scheduling, model serving, deployment and monitoring.
 
-My experience in the data science field started in 2015 
+My experience in the data science field started in 2014 
 and has spanned across industries 
 such as insurance, government, ecommerce and travel.
 This has given me professional experience on data science domains 

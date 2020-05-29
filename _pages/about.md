@@ -13,18 +13,22 @@ model training scheduling, model serving, deployment and monitoring.
 I have been working in the data science field since 2015.
 My experience spans across various industries 
 such as insurance, government, ecommerce and travel.
-This has given me professional experience on different data science domains 
-such as topic modelling, text classification and dynamic personalised recommendation.
+This has given me professional experience 
+on different data science domains 
+such as topic modelling, text classification, 
+dynamic personalised recommendation and ranking.
 I have also developed models for text generation 
 and embedding learning with matrix factorisation.
 I am familiar with deep learning techniques in domains
-such as natural language processing, computer vision and product recommendation.
+such as natural language processing, computer vision 
+and product recommendation.
 
 I graduated from National University of Singapore with a degree in
 Bachelor of Science, 1st Class Honours in Statistics.
 I was the valedictorian for the Statistics Class of 2014.
 
-Outside of work, you may find me exercising calisthenics workouts, hiking on a mountain or nature trail.
+Outside of work, I enjoy exercising calisthenics workouts, 
+mountain hiking and travelling.
 
 ## Professional Experience
 

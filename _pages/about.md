@@ -10,8 +10,8 @@ I build end-to-end machine learning systems to make business impact.
 This includes developing data transformation pipelines, model development, 
 model training scheduling, model serving, deployment and monitoring.
 
-I have been working in the data science field since 2015.
-My experience spans across industries 
+My experience in the data science field started in 2015 
+and has spanned across industries 
 such as insurance, government, ecommerce and travel.
 This has given me professional experience on data science domains 
 such as topic modelling, text classification, 
@@ -27,7 +27,7 @@ Bachelor of Science, 1st Class Honours in Statistics.
 I was the valedictorian for the Statistics Class of 2014.
 
 Outside of work, I enjoy exercising calisthenics workouts, 
-mountain hiking and travelling.
+mountain hiking, travelling and following Formula 1.
 
 ## Professional Experience
 
@@ -54,16 +54,15 @@ Non-exhaustive list of my technology skills, from most proficient to least.
 
 | Date     | Name | Provider |
 |----------|------|----------|
-| May 2020 | [Architecting with Google Compute Engine Specialisation][gce-architect] | Google Cloud (Coursera) |
-| May 2020 | [Cloud Architecture with Google Cloud Specialisation][gcp-architect] | Google Cloud (Coursera) |
-| May 2020 | [Cloud Engineering with Google Cloud Specialisation][gcp-engineer] | Google Cloud (Coursera) |
+| May 2020 | [Architecting with Google Compute Engine Specialisation][architect-gce] | Google Cloud (Coursera) |
+| May 2020 | [Cloud Architecture with Google Cloud Specialisation][architect-gcp] | Google Cloud (Coursera) |
+| May 2020 | [Cloud Engineering with Google Cloud Specialisation][engineer-gcp] | Google Cloud (Coursera) |
 | Feb 2017 | [Machine Learning Specialisation][ml-uwash] | University of Washington (Coursera) |
 | Dec 2014 | [Data Science Specialisation][ds-jhu] | Johns Hopkins University (Coursera) |
 
 [linkedin]: https://linkedin.com/in/yxtay/
-[gce-architect]: https://www.coursera.org/account/accomplishments/specialization/SFEPZZJTKHZN
-[gcp-architect]: https://www.coursera.org/account/accomplishments/professional-cert/WQ3YHDAUPLNR
-[gcp-engineer]: https://www.coursera.org/account/accomplishments/professional-cert/3YWGSEP6SLR5
+[architect-gce]: https://www.coursera.org/account/accomplishments/specialization/SFEPZZJTKHZN
+[architect-gcp]: https://www.coursera.org/account/accomplishments/professional-cert/WQ3YHDAUPLNR
+[engineer-gcp]: https://www.coursera.org/account/accomplishments/professional-cert/3YWGSEP6SLR5
 [ml-uwash]: https://www.coursera.org/account/accomplishments/specialization/A5XP8XBL4LLH
 [ds-jhu]: https://www.coursera.org/account/accomplishments/specialization/7RcZBonkEe
-

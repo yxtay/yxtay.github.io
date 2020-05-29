@@ -51,4 +51,20 @@ Non-exhaustive list of my technology skills, from most proficient to least.
 | Deployment | Docker, Kubernetes, Linux, Cloud Build, Travis CI, GitHub Actions, GitLab CI |
 | Google Cloud Platform | BigQuery, Storage, AI Platform, Cloud Composer, Cloud Build, Cloud Run, Kubernetes Engine, Compute Engine, Stackdriver Logging, Tracing, Monitor, Dataflow, Dataproc |
 
+## Certifications
+
+| Date | Name | Provider |
+|------|------|----------|
+| May 2020 | [Architecting with Google Compute Engine Specialisation][gce-architect] | Google Cloud (Coursera) |
+| May 2020 | [Cloud Architecture with Google Cloud Specialisation][gcp-architect] | Google Cloud (Coursera) |
+| May 2020 | [Cloud Engineering with Google Cloud Specialisation][gcp-engineer] | Google Cloud (Coursera) |
+| Feb 2017 | [Machine Learning Specialisation][ml-uwash] | University of Washington (Coursera) |
+| Dec 2014 | [Data Science Specialisation][ds-jhu] | Johns Hopkins University (Coursera) |
+
 [linkedin]: https://linkedin.com/in/yxtay/
+[gce-architect]: https://www.coursera.org/account/accomplishments/specialization/SFEPZZJTKHZN
+[gcp-architect]: https://www.coursera.org/account/accomplishments/professional-cert/WQ3YHDAUPLNR
+[gcp-engineer]: https://www.coursera.org/account/accomplishments/specialization/3YWGSEP6SLR5
+[ml-uwash]: https://www.coursera.org/account/accomplishments/specialization/A5XP8XBL4LLH
+[ds-jhu]: https://www.coursera.org/account/accomplishments/specialization/7RcZBonkEe
+

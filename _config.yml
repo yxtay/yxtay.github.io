@@ -21,10 +21,10 @@ description: >-
   I am a data scientist from Singapore.
   This blog contains my thoughts on applied data science
   and machine learninig engineering.
-teaser:
+teaser: 
 logo: 
-url: https://yxtay.github.io
-baseurl: 
+# url: https://yxtay.github.io
+# baseurl: 
 repository: yxtay/yxtay.github.io
 
 # comments
@@ -43,6 +43,7 @@ google:
 # jekyll-seo-tag settings
 twitter:
   username: yxtay
+og_image: /assets/images/avatar.jpg
 social:
   links:
     - https://linkedin.com/in/yxtay
@@ -98,7 +99,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  # github plugins
+  # github enabled plugins
   # https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
   - jekyll-coffeescript
   - jekyll-default-layout
@@ -109,15 +110,21 @@ plugins:
   - jekyll-readme-index
   - jekyll-relative-links
   - jekyll-titles-from-headings
-  # end github plugins
+  # github included plugins
+  # https://github.com/github/pages-gem/blob/master/lib/github-pages/dependencies.rb
+  - jekyll-avatar
   - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
+  # other plugins
+  - jekyll-include-cache
 
 author:
   name: YuXuan Tay
-  avatar: /assets/images/bio-photo.jpg
+  avatar: /assets/images/avatar.jpg
   bio: Data Scientist from Singapore. Interest in Applied Data Science and Machine Learning Engineering.
   location: Singapore
   links:

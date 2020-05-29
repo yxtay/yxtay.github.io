@@ -11,10 +11,9 @@ This includes developing data transformation pipelines, model development,
 model training scheduling, model serving, deployment and monitoring.
 
 I have been working in the data science field since 2015.
-My experience spans across various industries 
+My experience spans across industries 
 such as insurance, government, ecommerce and travel.
-This has given me professional experience 
-on different data science domains 
+This has given me professional experience on data science domains 
 such as topic modelling, text classification, 
 dynamic personalised recommendation and ranking.
 I have also developed models for text generation 
@@ -47,14 +46,14 @@ Please refer to my [LinkedIn][linkedin] for more information on my roles.
 Non-exhaustive list of my technology skills, from most proficient to least.
 
 | Programming languages | Python, SQL, R, Bash, Scala, Java, JavaScript |
-| Tools and frameworks | Git, GNU make, CatBoost, TensorFlow, Falcon, FastAPI, Flask, Apache Spark, PyTorch, Apache Beam |
-| Deployment | Docker, Kubernetes, Linux, Cloud Build, Travis CI, GitHub Actions, GitLab CI |
+| Tools and frameworks  | Git, GNU make, CatBoost, TensorFlow, Falcon, FastAPI, Flask, Apache Spark, PyTorch, Apache Beam |
+| Deployment            | Docker, Kubernetes, Linux, Cloud Build, Travis CI, GitHub Actions, GitLab CI |
 | Google Cloud Platform | BigQuery, Storage, AI Platform, Cloud Composer, Cloud Build, Cloud Run, Kubernetes Engine, Compute Engine, Stackdriver Logging, Tracing, Monitor, Dataflow, Dataproc |
 
 ## Certifications
 
-| Date | Name | Provider |
-|------|------|----------|
+| Date     | Name | Provider |
+|----------|------|----------|
 | May 2020 | [Architecting with Google Compute Engine Specialisation][gce-architect] | Google Cloud (Coursera) |
 | May 2020 | [Cloud Architecture with Google Cloud Specialisation][gcp-architect] | Google Cloud (Coursera) |
 | May 2020 | [Cloud Engineering with Google Cloud Specialisation][gcp-engineer] | Google Cloud (Coursera) |
@@ -64,7 +63,7 @@ Non-exhaustive list of my technology skills, from most proficient to least.
 [linkedin]: https://linkedin.com/in/yxtay/
 [gce-architect]: https://www.coursera.org/account/accomplishments/specialization/SFEPZZJTKHZN
 [gcp-architect]: https://www.coursera.org/account/accomplishments/professional-cert/WQ3YHDAUPLNR
-[gcp-engineer]: https://www.coursera.org/account/accomplishments/specialization/3YWGSEP6SLR5
+[gcp-engineer]: https://www.coursera.org/account/accomplishments/professional-cert/3YWGSEP6SLR5
 [ml-uwash]: https://www.coursera.org/account/accomplishments/specialization/A5XP8XBL4LLH
 [ds-jhu]: https://www.coursera.org/account/accomplishments/specialization/7RcZBonkEe
 

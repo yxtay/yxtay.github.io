@@ -47,6 +47,8 @@ Please refer to my [LinkedIn][linkedin] for more information on my roles.
 
 Non-exhaustive list of my technology skills, from most proficient to least.
 
+| Category              | Technologies |
+|-----------------------|--------------|
 | Programming languages | Python, SQL, R, Bash, Scala, Java, JavaScript |
 | Tools and frameworks  | Git, GNU make, CatBoost, TensorFlow, Falcon, FastAPI, Flask, Apache Spark, PyTorch, Apache Beam |
 | Deployment            | Docker, Kubernetes, Linux, Cloud Build, Travis CI, GitHub Actions, GitLab CI |

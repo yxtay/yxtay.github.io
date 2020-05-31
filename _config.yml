@@ -99,9 +99,10 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  # github enabled plugins
+  # github enabled
   # https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#plugins
   - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
   - jekyll-default-layout
   - jekyll-gist
   - jekyll-github-metadata
@@ -110,17 +111,20 @@ plugins:
   - jekyll-readme-index
   - jekyll-relative-links
   - jekyll-titles-from-headings
-  # github included plugins
+  # github included
   # https://github.com/github/pages-gem/blob/master/lib/github-pages/dependencies.rb
   - jekyll-avatar
   - jekyll-feed
   - jekyll-mentions
   - jekyll-redirect-from
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
-  # other plugins
+  # github whitelisted
+  # https://github.com/github/pages-gem/blob/master/lib/github-pages/plugins.rb
   - jekyll-include-cache
+  - jekyll-octicons
 
 author:
   name: YuXuan Tay
@@ -164,10 +168,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
       comments: true
-      share: true
+      read_time: true
       related: true
+      share: true
+      toc: true
   # _pages
   - scope:
       path: _pages

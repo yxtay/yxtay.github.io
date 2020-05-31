@@ -1,8 +1,11 @@
 ---
 title: About
 permalink: /about/
+id: /about/
 layout: single
 author_profile: true
+related: true
+toc: true
 ---
 
 Hi, my name is YuXuan Tay. 

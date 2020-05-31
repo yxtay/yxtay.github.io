@@ -14,7 +14,7 @@ to create and maintain it will be beyond me.
 However, this circuit breaker has given me some time and opportunity
 to finally figure this out and get to work.
 
-## About me
+## [About me](/about/)
 
 My name is YuXuan Tay, I am a data scientist from Singapore.
 The primary purpose of this blog will be as an outlet for me

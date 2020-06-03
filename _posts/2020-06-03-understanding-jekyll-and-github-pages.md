@@ -215,11 +215,11 @@ Hope this benefits you too!
 
 ## References
 
-- https://jekyllrb.com
-- https://help.github.com/en/github/working-with-github-pages
-- https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages
-- https://pages.github.com/versions
-- https://github.com/github/pages-gem
+- [https://jekyllrb.com][jekyllrb]
+- [https://help.github.com/en/github/working-with-github-pages][gh-pages]
+- [https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages][smashingmagazine]
+- [https://pages.github.com/versions][gh-pages-versions]
+- [https://github.com/github/pages-gem][gh-pages-repo]
 
 [jekyllrb]: https://jekyllrb.com
 [gh-pages]: https://help.github.com/en/github/working-with-github-pages

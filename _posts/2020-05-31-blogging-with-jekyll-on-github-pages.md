@@ -68,6 +68,9 @@ However, I am not going to let those content go to waste.
 
 Thank you for reading!
 
+Edit:
+- [Understanding Jekyll and GitHub Pages][jekyll-gh-pages]
+
 [jekyll]: https://jekyllrb.com
 [gh-pages]: https://pages.github.com
 [medium]: https://medium.com
@@ -75,3 +78,4 @@ Thank you for reading!
 [jekyll-themes]: https://jekyllthemes.io
 [minimal-mistakees]: https://mmistakes.github.io/minimal-mistakes
 [michael-rose]: https://mademistakes.com
+[jekyll-gh-pages]: /_posts/2020-06-03-understanding-jekyll-and-github-pages.md

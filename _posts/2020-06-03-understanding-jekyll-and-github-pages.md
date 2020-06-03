@@ -150,7 +150,7 @@ the [Jekyll Minima theme website][jekyll-minima].
 
 You may start working on your website from here.
 
-# GitHub Pages plugins
+## GitHub Pages plugins
 
 The `github-pages` gem specifies 
 a list of [plugins and their versions][gh-pages-versions].

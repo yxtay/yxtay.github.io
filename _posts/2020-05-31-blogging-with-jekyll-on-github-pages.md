@@ -68,7 +68,7 @@ However, I am not going to let those content go to waste.
 
 Thank you for reading!
 
-Edit: below are my completed posts on Jekyll and GitHub Pages.
+Update: below are my completed posts on Jekyll and GitHub Pages.
 - [Understanding Jekyll and GitHub Pages][jekyll-gh-pages]
 
 [jekyll]: https://jekyllrb.com

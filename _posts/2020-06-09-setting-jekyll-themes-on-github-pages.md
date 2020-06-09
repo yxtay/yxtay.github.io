@@ -45,7 +45,7 @@ gem "minimal-mistakes-jekyll"
 
 This activates the theme in Jekyll.
 
-```
+```yaml
 # _config.yml
 theme: minimal-mistakes-jekyll
 ```
@@ -108,7 +108,7 @@ With the Jekyll remote theme plugin installed
 (either individually or with `github-pages` gem),
 set up the remote theme configuration in the `_config.yml` file.
 
-```
+```yaml
 # _config.yml
 remote_theme: minimal-mistakes
 ```

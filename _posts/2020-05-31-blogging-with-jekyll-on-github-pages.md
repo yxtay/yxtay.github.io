@@ -1,6 +1,6 @@
 ---
 title: Blogging with Jekyll on GitHub Pages
-categories: 
+categories:
   - blog
 tags:
   - jekyll
@@ -8,7 +8,7 @@ tags:
 ---
 
 Finally, managed to create a blog with [Jekyll][jekyll] on [Github pages][gh-pages].
-Have been thinking of writing a blog for a while, 
+Have been thinking of writing a blog for a while,
 but had put it off as I imagined the effort required
 to create and maintain it will be beyond me.
 However, this circuit breaker has given me some time and opportunity
@@ -43,19 +43,19 @@ on setting up a blog as follows.
 
 The first 3 points are clearly fulfilled by [Github pages][gh-pages].
 They are part of the reasons why I did not consider using [Medium][medium] or [Wordpress][wordpress].
-However, [Jekyll][jekyll] can get a bit complicated if I want to make specific customisations. 
+However, [Jekyll][jekyll] can get a bit complicated if I want to make specific customisations.
 Fortunately, there are many [Jekyll themes][jekyll-themes] available
 with good layout and features,
 hence I do not really have to get my hands dirty with HTML, CSS and JavaScript,
 as long as my needs are common.
 
-The last 3 points are fulfilled by the Jekyll theme I am using: 
+The last 3 points are fulfilled by the Jekyll theme I am using:
 [Minimal Mistakes][minimal-mistakees] by [Michael Rose][michael-rose].
 It is quite a rich theme including features such as responsive layout, feed and sitemap.
 A few additional features that I really liked are search engine optimisation
 and social sharing.
 
-Other than configuring those features, I have also taken the effort to create 
+Other than configuring those features, I have also taken the effort to create
 proper [about me](/about/) and [404](/404.html) pages.
 Please take a look!
 
@@ -69,7 +69,9 @@ However, I am not going to let those content go to waste.
 Thank you for reading!
 
 Update: below are my completed posts on Jekyll and GitHub Pages.
+
 - [Understanding Jekyll and GitHub Pages][jekyll-gh-pages]
+- [Setting Jekyll Themes on GitHub Pages][jekyll-theme]
 
 [jekyll]: https://jekyllrb.com
 [gh-pages]: https://pages.github.com
@@ -79,3 +81,4 @@ Update: below are my completed posts on Jekyll and GitHub Pages.
 [minimal-mistakees]: https://mmistakes.github.io/minimal-mistakes
 [michael-rose]: https://mademistakes.com
 [jekyll-gh-pages]: /blog/understanding-jekyll-and-github-pages/
+[jekyll-theme]: /blog/setting-jekyll-themes-on-github-pages/

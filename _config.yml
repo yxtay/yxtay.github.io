@@ -21,24 +21,14 @@ description: >-
   I am a data scientist from Singapore.
   This blog contains my thoughts on applied data science
   and machine learninig engineering.
-teaser: 
-logo: 
-# url: https://yxtay.github.io
-# baseurl: 
+teaser:
+logo:
+# set by jekyll-github-metadata plugin
+# title: repo name
+# description: repo tagline
+# url: github pages domain
+# baseurl: project name
 repository: yxtay/yxtay.github.io
-
-# comments
-comments:
-  provider: utterances
-  utterances:
-    theme: github-light # github-dark
-    issue_term: pathname
-
-# search
-search: true
-search_provider: lunr # lunr (default), algolia, google
-google:
-  search_engine_id: "012049118435335239890:yyutqdlocqn"
 
 # jekyll-seo-tag settings
 twitter:
@@ -57,6 +47,21 @@ analytics:
   google:
     tracking_id: UA-167766744-1
     anonymize_ip: true # true, false (default)
+
+# comments
+comments:
+  provider: disqus
+  disqus:
+    shortname: yxtay
+  utterances:
+    theme: github-light # github-dark
+    issue_term: pathname
+
+# search
+search: true
+search_provider: lunr # lunr (default), algolia, google
+google:
+  search_engine_id: 012049118435335239890:yyutqdlocqn
 
 # github fixed values
 # https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#configuring-jekyll-in-your-github-pages-site

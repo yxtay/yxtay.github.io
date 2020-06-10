@@ -4,7 +4,7 @@ categories:
   - blog
 tags:
   - jekyll
-  - github pages
+  - github-pages
 ---
 
 Finally, managed to create a blog with [Jekyll][jekyll] on [Github pages][gh-pages].

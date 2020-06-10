@@ -36,7 +36,7 @@ that is installed together with Jekyll.
 This method requires that you make configuration changes at 2 locations:
 `Gemfile` and `_config.yml`.
 
-The following specifies and installs the RubyGem for the theme.
+The following specifies and installs the gem for the theme.
 
 ```ruby
 # Gemfile
@@ -128,6 +128,10 @@ Cons
 In my opinion, the remote theme method offers the best balance
 of selection, customisability and complexity.
 I am using this method to use the [Minimal Mistakes theme][minimal-mistakes].
+The remote theme method is applicable to any theme
+that is hosted on GitHub, this means a large number of themes are available,
+even it is not a gem. However, do take note that pay attention to
+whether themes are still being maintained or meant to be used this way.
 
 ## Regular Themes
 
@@ -139,6 +143,7 @@ To better understand how this method works, it is a good idea to
 go through the [Jekyll documentation][jekyll-docs].
 In essence, you are required to set up the following
 4 folders and their associated content.
+These set the theme page layouts, appearance and functionality.
 
 - `/_includes`: HTML components used in page layouts
 - `/_layouts`: HTML page layouts
@@ -165,11 +170,12 @@ The primary problem with this method is that any updates to the theme
 need to be merged into the user repo manually by the user.
 This gets complicated really quickly,
 especially if you have made customisation to the theme files.
-Another issue is that the user Jekyll project may be polluted by many theme files
-and clean up is required. However, this can only be done only when
-the user is familiar with Jekyll theme authoring.
+Another issue is that the user Jekyll project may be polluted by 
+many theme files that is not required and clean up is needed. 
+However, this can only be done only when 
+the user is somewhat familiar with Jekyll theme authoring.
 
-While exploring theme configuration, I was actually attracted to
+While exploring theme configuration, I was initially attracted to
 author my own theme to get my unique look and feel.
 However, as I went deeper into the rabbit hole, I discovered
 that it gets very complicated really quickly.

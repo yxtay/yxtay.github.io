@@ -1,7 +1,5 @@
 ---
 title: Setting Jekyll Themes on GitHub Pages
-categories:
-  - blog
 tags:
   - jekyll
   - github-pages
@@ -170,9 +168,9 @@ The primary problem with this method is that any updates to the theme
 need to be merged into the user repo manually by the user.
 This gets complicated really quickly,
 especially if you have made customisation to the theme files.
-Another issue is that the user Jekyll project may be polluted by 
-many theme files that is not required and clean up is needed. 
-However, this can only be done only when 
+Another issue is that the user Jekyll project may be polluted by
+many theme files that is not required and clean up is needed.
+However, this can only be done only when
 the user is somewhat familiar with Jekyll theme authoring.
 
 While exploring theme configuration, I was initially attracted to

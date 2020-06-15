@@ -1,7 +1,5 @@
 ---
 title: Understanding Jekyll and GitHub Pages
-categories:
-  - blog
 tags:
   - jekyll
   - github-pages

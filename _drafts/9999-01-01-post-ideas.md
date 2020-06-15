@@ -10,6 +10,13 @@ tags:
 
 Secure Docker Containers for Python Applications
 
+- https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+- base image
+  - python vs python slim vs python alpine
+- root user
+- multi-stage build
+
 Machine Learning Model Serving with Task Queues
 
 Rendevous Architecture for Machine Learning Model Serving

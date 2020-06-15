@@ -171,6 +171,7 @@ defaults:
       path: _posts
       type: posts
     values:
+      categories: [blog]
       layout: single
       author_profile: true
       comments: true

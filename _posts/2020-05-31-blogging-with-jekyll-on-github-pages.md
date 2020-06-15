@@ -1,7 +1,5 @@
 ---
 title: Blogging with Jekyll on GitHub Pages
-categories:
-  - blog
 tags:
   - jekyll
   - github-pages

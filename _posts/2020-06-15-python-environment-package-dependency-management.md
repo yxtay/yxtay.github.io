@@ -4,9 +4,9 @@ tags:
   - python-project
 ---
 
-In my experience of developing production-ready python
-applications, I often find myself setting up many components and
-configurations which may be repetitive and reusable. Along the way,
+In my experience of developing python applications for production
+deployment with docker, I often find myself setting up many components
+and configurations which may be repetitive and reusable. Along the way,
 I have also done a lot of research on the python developer tools
 available and best practices in setting them up.
 In the next series of posts, I will be distilling my findings
@@ -20,6 +20,7 @@ developing python packages meant to be published and
 distributed to a wider general audience.
 
 Information discussed here are set up in the following repository.
+Please star the repo if you find it useful.
 
 - [https://github.com/yxtay/python-project-template][python-project-template]
 
@@ -229,7 +230,7 @@ in the future.
 In my next few articles, I will cover other aspects of my project
 template, such as application tools, development tools and docker deployment.
 
-Hope you have found it useful!
+Hope you have found it useful! Please let me know what you think in the comments.
 
 ## Alternative structures and templates
 

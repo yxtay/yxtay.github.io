@@ -8,23 +8,23 @@ related: true
 toc: true
 ---
 
-Hi, my name is YuXuan Tay. 
+Hi, my name is YuXuan Tay.
 I am a data scientist from Singapore.
 
 I build end-to-end machine learning systems to make business impact.
-This includes engineering data transformation pipelines, model development, 
+This includes engineering data transformation pipelines, model development,
 model training scheduling, model serving, deployment and monitoring.
 
-My experience in the data science field started in 2014 
-and has spanned across industries 
+My experience in the data science field started in 2014
+and has spanned across industries
 such as insurance, government, ecommerce and travel.
-This has given me professional experience on data science domains 
+This has given me professional experience on data science domains
 such as topic modelling, text classification, ranking
 dynamic personalised recommendation and visual model explanations.
-I have also developed models for text generation 
+I have also developed models for text generation
 and embedding learning with matrix factorisation.
 I am familiar with deep learning techniques in domains
-such as natural language processing, computer vision 
+such as natural language processing, computer vision
 and recommendation engines.
 
 I graduated from National University of Singapore with a degree in
@@ -38,35 +38,39 @@ mountain hiking, exploring scenery and travelling.
 
 For more information, please refer to [LinkedIn][linkedin].
 
-| Start    | End      | Title | Organisation | Location |
-|----------|----------|-------|--------------|----------|
-| Aug 2018 | Present  | Data Scientist, RecSys | Traveloka | Singapore |
-| Jun 2017 | Aug 2018 | Senior Associate, Data Science | Lazada | Singapore |
+| Start    | End      | Title                                       | Organisation      | Location  |
+| -------- | -------- | ------------------------------------------- | ----------------- | --------- |
+| Aug 2018 | Present  | Data Scientist, RecSys                      | Traveloka         | Singapore |
+| Jun 2017 | Aug 2018 | Senior Associate, Data Science              | Lazada            | Singapore |
 | Jun 2015 | Jun 2017 | Associate Consultant, Data Science Division | GovTech Singapore | Singapore |
-| Sep 2014 | Jun 2015 | Graduate Actuarial Analyst | Swiss Re | Singapore |
+| Sep 2014 | Jun 2015 | Graduate Actuarial Analyst                  | Swiss Re          | Singapore |
 
 ## Technology Skills
 
 Non-exhaustive lists of my technology skills, from most proficient to least.
 
-| Category              | Technologies |
-|-----------------------|--------------|
-| Programming languages | Python, SQL, R, Bash, Scala, Java, JavaScript |
-| Tools and frameworks  | Git, GNU make, CatBoost, TensorFlow, Falcon, FastAPI, Flask, Apache Spark, PyTorch, Apache Beam |
-| Deployment            | Docker, Kubernetes, Linux, Cloud Build, Travis CI, GitHub Actions, GitLab CI |
+| Category              | Technologies                                                                                                                                                         |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Programming languages | Python, SQL, R, Bash, Scala, Java, JavaScript                                                                                                                        |
+| Tools and frameworks  | Git, GNU make, CatBoost, TensorFlow, Falcon, FastAPI, Flask, Apache Spark, PyTorch, Apache Beam                                                                      |
+| Deployment            | Docker, Kubernetes, Linux, Cloud Build, Travis CI, GitHub Actions, GitLab CI                                                                                         |
 | Google Cloud Platform | BigQuery, Storage, AI Platform, Cloud Composer, Cloud Build, Cloud Run, Kubernetes Engine, Compute Engine, Stackdriver Logging, Tracing, Monitor, Dataflow, Dataproc |
 
 ## Certifications
 
-| Date     | Certificate | Provider |
-|----------|-------------|----------|
-| May 2020 | [Architecting with Google Compute Engine Specialisation][architect-gce] | Google Cloud (Coursera) |
-| May 2020 | [Cloud Architecture with Google Cloud Specialisation][architect-gcp] | Google Cloud (Coursera) |
-| May 2020 | [Cloud Engineering with Google Cloud Specialisation][engineer-gcp] | Google Cloud (Coursera) |
-| Feb 2017 | [Machine Learning Specialisation][ml-uwash] | University of Washington (Coursera) |
-| Dec 2014 | [Data Science Specialisation][ds-jhu] | Johns Hopkins University (Coursera) |
+| Date     | Certificate                                                             | Provider                            |
+| -------- | ----------------------------------------------------------------------- | ----------------------------------- |
+| Jun 2020 | [Data Engineering, Big Data, and Machine Learning on GCP][debdml-gcp]   | Google Cloud (Coursera)             |
+| Jun 2020 | [Data Engineering with Google Cloud][de-gcp]                            | Google Cloud (Coursera)             |
+| May 2020 | [Architecting with Google Compute Engine Specialisation][architect-gce] | Google Cloud (Coursera)             |
+| May 2020 | [Cloud Architecture with Google Cloud Specialisation][architect-gcp]    | Google Cloud (Coursera)             |
+| May 2020 | [Cloud Engineering with Google Cloud Specialisation][engineer-gcp]      | Google Cloud (Coursera)             |
+| Feb 2017 | [Machine Learning Specialisation][ml-uwash]                             | University of Washington (Coursera) |
+| Dec 2014 | [Data Science Specialisation][ds-jhu]                                   | Johns Hopkins University (Coursera) |
 
 [linkedin]: https://linkedin.com/in/yxtay/
+[debdml-gcp]: https://www.coursera.org/account/accomplishments/specialization/8C6HRLEGU7UP
+[de-gcp]: https://www.coursera.org/account/accomplishments/professional-cert/YALL6NL6Z3Q3
 [architect-gce]: https://www.coursera.org/account/accomplishments/specialization/SFEPZZJTKHZN
 [architect-gcp]: https://www.coursera.org/account/accomplishments/professional-cert/WQ3YHDAUPLNR
 [engineer-gcp]: https://www.coursera.org/account/accomplishments/professional-cert/3YWGSEP6SLR5

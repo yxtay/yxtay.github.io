@@ -8,7 +8,7 @@ tags:
   - idea
 ---
 
-Secure Docker Containers for Python Applications
+Best Practices for Python Application Docker Images
 
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 

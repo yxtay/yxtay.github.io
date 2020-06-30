@@ -208,11 +208,11 @@ manage python versions.
 
 ## Conclusion
 
-- production
+- Production
   - environment management: venv
   - package installer: pip
   - dependency management: NA
-- development
+- Development
   - environment management: Conda
   - package installer: Poetry, Conda
   - dependency management: Poetry
@@ -244,14 +244,17 @@ Hope you have found it useful! Please let me know what you think in the comments
   - [pip-tools][pip-tools]
   - [pyenv][pyenv]
   - [Pipenv][pipenv]
-- [https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions][jakevdp]
-- [https://www.anaconda.com/blog/tensorflow-in-anaconda][tensorflow-conda]
-- [https://hynek.me/articles/python-app-deps-2018][hynek]
-- [https://jacobian.org/2019/nov/11/python-environment-2020][jacobian]
-- [https://www.pluralsight.com/tech-blog/managing-python-environments][pluralsight]
-- [https://docs.python-guide.org/writing/structure][python-structure]
-- [https://realpython.com/python-application-layouts][python-layout]
-- [https://github.com/jacebrowning/template-python][jacebrowning]
+- Conda
+  - [Conda: Myths and Misconceptions][jakevdp] by Jake VanderPlas
+  - [TensorFlow in Anaconda][tensorflow-conda] on Anaconda: benefits of using Conda to install packages with non-python dependencies
+- Tools comparison
+  - [Python Application Dependency Management in 2018][hynek] by Hynek Schlawack: comparing Pipenv, Poetry and pip-tools
+  - [My Python Development Environment, 2020 Edition][jacobian] by Jacob Kaplan-Moss: using pyenv, pipx and Poetry
+  - [Managing Python Environments][pluralsight] by John Walk: comparing venv, virtualenv, pyenv, Pipenv, Conda and docker
+- Python project structure
+  - [Structuring Your Project][python-structure] on The Hitchhiker's Guide to Python
+  - [Python Application Layouts: A Reference][python-layout] on Real Python
+  - [Jace's Python Template][jacebrowning]
 
 [python-project-template]: https://github.com/yxtay/python-project-template
 [github-template]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template

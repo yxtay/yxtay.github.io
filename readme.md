@@ -8,8 +8,9 @@ related: true
 toc: true
 ---
 
-Hi, my name is YuXuan Tay.
-I am a data scientist from Singapore.
+Hi, my name is YuXuan Tay, a Data Scientist based in Singapore.
+I am a Data Science Consultant in QuantumeBlack
+with Google Cloud Certification as a Professional Data Engineer.
 
 I build end-to-end machine learning systems to make business impact.
 This includes engineering data transformation pipelines, model development,
@@ -19,7 +20,7 @@ My experience in the data science field started in 2014
 and has spanned across industries
 such as insurance, government, ecommerce and travel.
 This has given me professional experience on data science domains
-such as topic modelling, text classification, ranking
+such as topic modelling, text classification, ranking,
 dynamic personalised recommendation and visual model explanations.
 I have also developed models for text generation
 and embedding learning with matrix factorisation.

@@ -8,14 +8,6 @@ tags:
   - idea
 ---
 
-## Summary
-
-- logging: logging and python-json-logger
-- application configuration management: python-dotenv and pydantic
-- command line interface: Typer
-- web framework: FastAPI
-- scripts management: GNU Make
-
 ## Logging
 
 - [**logging**][logging]
@@ -31,7 +23,7 @@ tags:
   - read envrionment variables in `.env` file with value interpolation
 - [**pydantic**][pydantic]
   - settings management using python type annotations
-  - interacts well with `.env` file and envrionment variables
+  - interacts well with `.env` file and environment variables
   - no values interpolation
 
 ## Command line interface
@@ -54,8 +46,15 @@ tags:
 
 ## Scripts management
 
-- Bash scripts
 - [**GNU Make**][make]
+
+## Conclusion
+
+- logging: logging and python-json-logger
+- application configuration management: configparser, python-dotenv and pydantic
+- command line interface: Typer
+- web framework: FastAPI
+- scripts management: GNU Make
 
 ### References
 

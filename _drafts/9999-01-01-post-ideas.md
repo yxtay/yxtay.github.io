@@ -8,6 +8,8 @@ tags:
   - idea
 ---
 
+Using Poetry with Conda
+
 Best Practices for Python Application Docker Images
 
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
@@ -16,6 +18,7 @@ Best Practices for Python Application Docker Images
   - python vs python slim vs python alpine
 - root user
 - multi-stage build
+  - using cache
 
 Machine Learning Model Serving with Task Queues
 

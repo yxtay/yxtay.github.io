@@ -31,8 +31,8 @@ I graduated from National University of Singapore with a degree in
 Bachelor of Science, 1st Class Honours in Statistics.
 I was the valedictorian for the Statistics Class of 2014.
 
-Outside of work, I enjoy exercising calisthenics workouts, following Formula 1,
-mountain hiking, exploring scenery and travelling.
+Outside of work, I enjoy keeping fit with calisthenics workouts and jogging,
+following Formula 1, mountain hiking, exploring scenery and travelling.
 
 ## Professional Experience
 
@@ -40,7 +40,8 @@ For more information, please refer to [LinkedIn][linkedin].
 
 | Start    | End      | Title                                       | Organisation      | Location  |
 | -------- | -------- | ------------------------------------------- | ----------------- | --------- |
-| Aug 2018 | Present  | Data Scientist, RecSys                      | Traveloka         | Singapore |
+| Jul 2020 | Present  | Data Science Consultant                     | QuantumBlack      | Singapore |
+| Aug 2018 | Apr 2020 | Data Scientist, RecSys                      | Traveloka         | Singapore |
 | Jun 2017 | Aug 2018 | Senior Associate, Data Science              | Lazada            | Singapore |
 | Jun 2015 | Jun 2017 | Associate Consultant, Data Science Division | GovTech Singapore | Singapore |
 | Sep 2014 | Jun 2015 | Graduate Actuarial Analyst                  | Swiss Re          | Singapore |
@@ -60,6 +61,7 @@ Non-exhaustive lists of my technology skills, from most proficient to least.
 
 | Date     | Certificate                                                             | Provider                            |
 | -------- | ----------------------------------------------------------------------- | ----------------------------------- |
+| Jul 2020 | [Google Cloud Certified Professional Data Engineer][pde-gcp]            | Google Cloud                        |
 | Jun 2020 | [Data Engineering, Big Data, and Machine Learning on GCP][debdml-gcp]   | Google Cloud (Coursera)             |
 | Jun 2020 | [Data Engineering with Google Cloud][de-gcp]                            | Google Cloud (Coursera)             |
 | May 2020 | [Architecting with Google Compute Engine Specialisation][architect-gce] | Google Cloud (Coursera)             |
@@ -76,3 +78,4 @@ Non-exhaustive lists of my technology skills, from most proficient to least.
 [engineer-gcp]: https://www.coursera.org/account/accomplishments/professional-cert/3YWGSEP6SLR5
 [ml-uwash]: https://www.coursera.org/account/accomplishments/specialization/A5XP8XBL4LLH
 [ds-jhu]: https://www.coursera.org/account/accomplishments/specialization/7RcZBonkEe
+[pde-gcp]: https://www.credential.net/998cc1c0-c0e6-425f-ba95-a5f6a44c08df

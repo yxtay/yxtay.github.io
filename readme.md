@@ -8,9 +8,9 @@ related: true
 toc: true
 ---
 
-Hi, my name is YuXuan Tay, a Data Scientist based in Singapore.
-I am a Data Science Consultant in QuantumeBlack
-with a Google Cloud Professional Data Engineer Certification.
+Hi, my name is YuXuan Tay, a Data Scientist based in Singapore
+and a Google Cloud Certified Professional Data Engineer.
+I am a Data Science Consultant in QuantumeBlack.
 
 I build end-to-end machine learning systems to make business impact.
 This includes engineering data transformation pipelines, model development,

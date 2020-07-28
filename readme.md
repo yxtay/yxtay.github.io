@@ -17,8 +17,8 @@ This includes engineering data transformation pipelines, model development,
 model training scheduling, model serving, deployment and monitoring.
 
 My experience in the data science field started in 2014
-and has spanned across industries
-such as insurance, government, ecommerce and travel.
+and has spanned across industries such as insurance, government, 
+ecommerce, travel, startups and consulting.
 This has given me professional experience on data science domains
 such as topic modelling, text classification, ranking,
 dynamic personalised recommendation and visual model explanations.

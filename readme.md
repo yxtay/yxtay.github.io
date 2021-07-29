@@ -8,9 +8,8 @@ related: true
 toc: true
 ---
 
-Hi, my name is YuXuan Tay, a Data Scientist based in Singapore
-and a Google Cloud Certified Professional Data Engineer.
-I am a Senior Data Scientist in Ninja Van.
+Hi, my name is YuXuan Tay, a Data Scientist from Singapore.
+I am a Google Cloud Certified Professional Data Engineer.
 
 I build end-to-end machine learning systems to make business impact.
 This includes engineering data transformation pipelines, model development,
@@ -41,7 +40,7 @@ For more information, please refer to [LinkedIn][linkedin].
 
 | Start    | End      | Title                                       | Organisation      | Location  |
 | -------- | -------- | ------------------------------------------- | ----------------- | --------- |
-| Jan 2021 | Present  | Senior Data Scientist                       | Ninja Van         | Singapore |
+| Jan 2021 | Jul 2021 | Senior Data Scientist                       | Ninja Van         | Singapore |
 | Jul 2020 | Dec 2020 | Data Science Consultant                     | QuantumBlack      | Singapore |
 | Aug 2018 | Apr 2020 | Data Scientist, RecSys                      | Traveloka         | Singapore |
 | Jun 2017 | Aug 2018 | Senior Associate, Data Science              | Lazada            | Singapore |
@@ -55,8 +54,8 @@ Non-exhaustive lists of my technology skills, from most proficient to least.
 | Category              | Technologies                                                                                                                                                         |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Programming languages | Python, SQL, R, Bash, Scala, Java, JavaScript                                                                                                                        |
-| Tools and frameworks  | Git, GNU make, CatBoost, TensorFlow, PyTorch, Apache Spark, Apache Beam, FastAPI, Falcon, Flask                                                                      |
-| Deployment            | Docker, Kubernetes, Linux, Cloud Build, Travis CI, GitHub Actions, GitLab CI                                                                                         |
+| Tools and frameworks  | Git, GNU make, CatBoost, TensorFlow, PyTorch, Apache Spark, Apache Beam, data build tool, Airflow, FastAPI, Falcon, Flask                                                                      |
+| Deployment            | Docker, Kubernetes, Linux, Cloud Build, GitHub Actions, Travis CI, GitLab CI                                                                                         |
 | Google Cloud Platform | BigQuery, Storage, AI Platform, Cloud Composer, Cloud Build, Cloud Run, Kubernetes Engine, Compute Engine, Stackdriver Logging, Tracing, Monitor, Dataflow, Dataproc |
 
 ## Certifications

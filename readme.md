@@ -8,8 +8,9 @@ related: true
 toc: true
 ---
 
-Hi, my name is YuXuan Tay, a Data Scientist from Singapore.
-I am a Google Cloud Certified Professional Data Engineer.
+Hi, my name is YuXuan Tay, originally from Singapore. 
+Currently, I am a Machine Learning Software Engineer in Facebook, London, United Kingdom. 
+I am also a Google Cloud Certified Professional Data Engineer.
 
 I build end-to-end machine learning systems to make business impact.
 This includes engineering data transformation pipelines, model development,
@@ -38,14 +39,15 @@ following Formula 1, mountain hiking, exploring scenery and travelling.
 
 For more information, please refer to [LinkedIn][linkedin].
 
-| Start    | End      | Title                                       | Organisation      | Location  |
-| -------- | -------- | ------------------------------------------- | ----------------- | --------- |
-| Jan 2021 | Jul 2021 | Senior Data Scientist                       | Ninja Van         | Singapore |
-| Jul 2020 | Dec 2020 | Data Science Consultant                     | QuantumBlack      | Singapore |
-| Aug 2018 | Apr 2020 | Data Scientist, RecSys                      | Traveloka         | Singapore |
-| Jun 2017 | Aug 2018 | Senior Associate, Data Science              | Lazada            | Singapore |
-| Jun 2015 | Jun 2017 | Associate Consultant, Data Science Division | GovTech Singapore | Singapore |
-| Sep 2014 | Jun 2015 | Graduate Actuarial Analyst                  | Swiss Re          | Singapore |
+| Start    | End      | Title                                       | Organisation      | Location               |
+| -------- | -------- | ------------------------------------------- | ----------------- | ---------------------- |
+| Aug 2021 | Present  | Software Engineer, Machine Learning         | Facebook          | London, United Kingdom |
+| Jan 2021 | Jul 2021 | Senior Data Scientist                       | Ninja Van         | Singapore              |
+| Jul 2020 | Dec 2020 | Data Science Consultant                     | QuantumBlack      | Singapore              |
+| Aug 2018 | Apr 2020 | Data Scientist, RecSys                      | Traveloka         | Singapore              |
+| Jun 2017 | Aug 2018 | Senior Associate, Data Science              | Lazada            | Singapore              |
+| Jun 2015 | Jun 2017 | Associate Consultant, Data Science Division | GovTech Singapore | Singapore              |
+| Sep 2014 | Jun 2015 | Graduate Actuarial Analyst                  | Swiss Re          | Singapore              |
 
 ## Technology Skills
 

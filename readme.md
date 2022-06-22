@@ -8,8 +8,8 @@ related: true
 toc: true
 ---
 
-Hi, my name is YuXuan Tay, originally from Singapore. 
-Currently, I am a Machine Learning Software Engineer in Facebook, London, United Kingdom. 
+Hi, my name is YuXuan Tay, originally from Singapore.
+Currently, I am a Machine Learning Software Engineer in Meta, London, United Kingdom.
 I am also a Google Cloud Certified Professional Data Engineer.
 
 I build end-to-end machine learning systems to make business impact.
@@ -17,7 +17,7 @@ This includes engineering data transformation pipelines, model development,
 model training scheduling, model serving, deployment and monitoring.
 
 My experience in the data science field started in 2014
-and has spanned across industries such as government, consulting, 
+and has spanned across industries such as government, consulting,
 startup, insurance, ecommerce, travel and logistics.
 This has given me professional experience on data science domains
 such as topic modelling, text classification, uplift modelling, ranking,
@@ -41,7 +41,7 @@ For more information, please refer to [LinkedIn][linkedin].
 
 | Start    | End      | Title                                       | Organisation      | Location               |
 | -------- | -------- | ------------------------------------------- | ----------------- | ---------------------- |
-| Aug 2021 | Present  | Software Engineer, Machine Learning         | Facebook          | London, United Kingdom |
+| Aug 2021 | Present  | Software Engineer, Machine Learning         | Meta              | London, United Kingdom |
 | Jan 2021 | Jul 2021 | Senior Data Scientist                       | Ninja Van         | Singapore              |
 | Jul 2020 | Dec 2020 | Data Science Consultant                     | QuantumBlack      | Singapore              |
 | Aug 2018 | Apr 2020 | Data Scientist, RecSys                      | Traveloka         | Singapore              |
@@ -53,12 +53,13 @@ For more information, please refer to [LinkedIn][linkedin].
 
 Non-exhaustive lists of my technology skills, from most proficient to least.
 
-| Category              | Technologies                                                                                                                                                         |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Programming languages | Python, SQL, R, Bash, Scala, Java, JavaScript                                                                                                                        |
-| Tools and frameworks  | Git, GNU make, CatBoost, TensorFlow, PyTorch, Apache Spark, Apache Beam, data build tool, Airflow, FastAPI, Falcon, Flask                                                                      |
-| Deployment            | Docker, Kubernetes, Linux, Cloud Build, GitHub Actions, Travis CI, GitLab CI                                                                                         |
-| Google Cloud Platform | BigQuery, Storage, AI Platform, Cloud Composer, Cloud Build, Cloud Run, Kubernetes Engine, Compute Engine, Stackdriver Logging, Tracing, Monitor, Dataflow, Dataproc |
+| Category                        | Technologies                                                                                                                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Machine Learning & Data Science | PyTorch Lightning, CatBoost, Apache Spark, TensorFlow, Data Build Tool, Apache Beam, SHAP feature importance, neural networks, recommendation engines, ranking, uplift modeling |
+| Deployment & Integration        | Git, Docker Compose, GitHub Actions, Git Hooks, Pre-Commit, Virtualenv, Travis CI, GitLab CI                                                                                    |
+| Automation & Orchestration      | Airflow, GNU Make, Ansible, Kuberntes                                                                                                                                           |
+| Google Cloud Platform           | BigQuery, Storage, AI Platform, Cloud Composer, Cloud Build, Cloud Run, Kubernetes Engine, Compute Engine, Stackdriver Logging, Tracing, Monitor, Dataflow, Dataproc            |
+| Others                          | FastAPI, Python, SQL, R, Bash, Linux, JavaScript, Scala, Java, PHP                                                                                                              |
 
 ## Certifications
 

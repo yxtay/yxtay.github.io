@@ -56,8 +56,8 @@ Non-exhaustive lists of my technology skills, from most proficient to least.
 
 | Category                        | Technologies                                                                                                                                                                    |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Machine Learning & Data Science | PyTorch Lightning, CatBoost, Apache Spark, TensorFlow, Data Build Tool, Apache Beam, SHAP feature importance, neural networks, recommendation engines, ranking, uplift modeling |
-| Deployment & Integration        | Git, Docker Compose, GitHub Actions, Git Hooks, Pre-Commit, Virtualenv, Travis CI, GitLab CI                                                                                    |
+| Machine Learning & Data Science | PyTorch Lightning, TensorFlow, CatBoost, Apache Spark, Apache Beam, Data Build Tool, SHAP feature importance, neural networks, recommendation engines, ranking, uplift modeling |
+| Deployment & Integration        | Git, Docker Compose, GitHub Actions, Git Hooks, Pre-Commit, Virtualenv, Travis CI                                                                                               |
 | Automation & Orchestration      | Airflow, GNU Make, Ansible, Kuberntes                                                                                                                                           |
 | Google Cloud Platform           | BigQuery, Storage, AI Platform, Cloud Composer, Cloud Build, Cloud Run, Kubernetes Engine, Compute Engine, Stackdriver Logging, Tracing, Monitor, Dataflow, Dataproc            |
 | Others                          | FastAPI, Python, SQL, R, Bash, Linux, JavaScript, Rust, Scala, Java, PHP                                                                                                        |

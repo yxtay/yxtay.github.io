@@ -11,7 +11,6 @@ github: https://github.com/yxtay
 
 Hi, my name is YuXuan Tay, originally from Singapore.
 Currently, I am a Machine Learning Software Engineer in Meta, London, United Kingdom.
-I am also a Google Cloud Certified Professional Data Engineer.
 
 I build end-to-end machine learning systems to make business impact.
 This includes engineering data transformation pipelines, model development,
@@ -35,6 +34,7 @@ I was the valedictorian for the Statistics Class of 2014.
 
 Outside of work, I enjoy keeping fit with calisthenics workouts and jogging,
 following Formula 1, mountain hiking, exploring scenery and travelling.
+I am a father of 1 with my lovely wife, Lynn.
 
 ## Professional Experience
 
@@ -60,7 +60,7 @@ Non-exhaustive lists of my technology skills, from most proficient to least.
 | Deployment & Integration        | Git, Docker Compose, GitHub Actions, Git Hooks, Pre-Commit, Virtualenv, Travis CI, GitLab CI                                                                                    |
 | Automation & Orchestration      | Airflow, GNU Make, Ansible, Kuberntes                                                                                                                                           |
 | Google Cloud Platform           | BigQuery, Storage, AI Platform, Cloud Composer, Cloud Build, Cloud Run, Kubernetes Engine, Compute Engine, Stackdriver Logging, Tracing, Monitor, Dataflow, Dataproc            |
-| Others                          | FastAPI, Python, SQL, R, Bash, Linux, JavaScript, Scala, Java, PHP                                                                                                              |
+| Others                          | FastAPI, Python, SQL, R, Bash, Linux, JavaScript, Rust, Scala, Java, PHP                                                                                                        |
 
 ## Certifications
 

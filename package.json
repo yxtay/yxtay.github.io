@@ -61,10 +61,10 @@
     "socket.io-client": "^4.8.3"
   },
   "lint-staged": {
-    "*.+(js|jsx|ts|tsx)": [
+    "*.+(js|jsx)": [
       "eslint --fix"
     ],
-    "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
+    "*.+(js|jsx|json|css|md|mdx)": [
       "prettier --write"
     ]
   }

@@ -7,6 +7,18 @@ import TOCInline from './TOCInline'
 import Pre from './Pre'
 import { BlogNewsletterForm } from './NewsletterForm'
 
+import AuthorLayout from '@/layouts/AuthorLayout'
+import ListLayout from '@/layouts/ListLayout'
+import PostLayout from '@/layouts/PostLayout'
+import PostSimple from '@/layouts/PostSimple'
+
+const layouts = {
+  AuthorLayout,
+  ListLayout,
+  PostLayout,
+  PostSimple,
+}
+
 export const MDXComponents = {
   Image,
   TOCInline,
@@ -14,7 +26,8 @@ export const MDXComponents = {
   pre: Pre,
   BlogNewsletterForm: BlogNewsletterForm,
   wrapper: ({ components, layout, ...rest }) => {
-    const Layout = require(`../layouts/${layout}`).default
+    const Layout = layouts[layout]
+    if (!Layout) throw new Error(`Unknown layout: ${layout}`)
     return <Layout {...rest} />
   },
 }

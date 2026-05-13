@@ -7,20 +7,30 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'GloVe with TensorFlow Estimators',
+    description: 'Training GloVe word embeddings with TensorFlow Estimators API.',
+    href: 'https://github.com/yxtay/glove-tensorflow',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Recommendation Models in TensorFlow',
+    description:
+      'Implementation of DeepFM and Factorization Machines in TensorFlow Estimators API.',
+    href: 'https://github.com/yxtay/recommender-tensorflow',
+  },
+  {
+    title: 'Character RNN Text Generation',
+    description: 'Character RNN Text Generation with different deep learning frameworks.',
+    href: 'https://github.com/yxtay/char-rnn-text-generation',
+  },
+  {
+    title: 'Word Prediction',
+    description: 'Word Prediction using ngrams.',
+    href: 'https://yxtay.shinyapps.io/dsc-shiny',
+  },
+  {
+    title: 'CLT Demo',
+    description: 'Illustration of Central Limit Theorem.',
+    href: 'https://yxtay.shinyapps.io/rv-clt',
   },
 ]
 

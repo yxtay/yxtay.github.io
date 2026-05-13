@@ -1,4 +1,3 @@
-const withExportImages = require('next-export-optimize-images')
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
@@ -7,6 +6,7 @@ const config = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   output: 'export',
+  images: { unoptimized: true },
   webpack: (config) => {
     const fileLoaderRule = config.module.rules.find((rule) => rule.test?.test?.('.svg'))
 
@@ -32,6 +32,4 @@ const config = {
   },
 }
 
-module.exports = async () => {
-  return withBundleAnalyzer(await withExportImages(config))
-}
+module.exports = withBundleAnalyzer(config)

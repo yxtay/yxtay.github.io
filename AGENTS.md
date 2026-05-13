@@ -8,7 +8,7 @@ Personal blog built with [Tailwind Nextjs Starter Blog](https://github.com/timlr
 - **Styling**: Tailwind CSS 3
 - **Content**: MDX blog posts in `data/blog/`, author bios in `data/authors/`
 - **Deployment**: Static export to GitHub Pages via `output: 'export'`
-- **Image optimization**: `next-export-optimize-images` (post-build optimizer for static export)
+- **Images**: Unoptimized (`images.unoptimized = true`) for static export compatibility
 
 ## Key Directories
 
@@ -28,19 +28,19 @@ Personal blog built with [Tailwind Nextjs Starter Blog](https://github.com/timlr
 ```sh
 npm run dev       # Start dev server
 npm run build     # Build static export (uses webpack via --webpack flag)
-npm run export    # Post-build: optimize images + generate sitemap
+npm run export    # Post-build: generate sitemap
 npm run lint      # ESLint with auto-fix
 npm run analyze   # Bundle analysis
 ```
 
-CI runs `build` then `export` sequentially. The `build` step produces static output in `out/` (via `output: 'export'`), then `export` runs image optimization and sitemap generation.
+CI runs `build` then `export` sequentially. The `build` step produces static output in `out/` (via `output: 'export'`), then `export` generates the sitemap.
 
 ## Architecture Notes
 
 - **Static export only**: `output: 'export'` in `next.config.js`. No server-side features (API routes, headers(), rewrites, middleware). All pages are statically generated.
 - **MDX layouts**: Registered in `components/MDXComponents.js` via a static `layouts` map. Adding a new layout requires updating this map.
-- **Image component**: `components/Image.js` wraps `next-export-optimize-images/image` (not `next/image` directly) to provide the custom loader required for static export.
-- **Config plugins**: `next.config.js` uses async config to apply `withExportImages` (async) then `withBundleAnalyzer` (sync).
+- **Image component**: `components/Image.js` wraps `next/image` with `unoptimized` images for static export.
+- **Config plugins**: `next.config.js` applies `withBundleAnalyzer`.
 - **Site metadata**: `data/siteMetadata.js` holds all site config including comment system (Giscus), analytics, and newsletter settings. Giscus config uses environment variables.
 
 ## Conventions

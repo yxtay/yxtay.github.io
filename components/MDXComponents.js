@@ -27,6 +27,7 @@ export const MDXComponents = {
   BlogNewsletterForm: BlogNewsletterForm,
   wrapper: ({ components, layout, ...rest }) => {
     const Layout = layouts[layout]
+    if (!Layout) throw new Error(`Unknown layout: ${layout}`)
     return <Layout {...rest} />
   },
 }

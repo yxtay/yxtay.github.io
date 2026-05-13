@@ -4,51 +4,49 @@ Personal blog built with [Tailwind Nextjs Starter Blog](https://github.com/timlr
 
 ## Project Overview
 
-- **Framework**: Next.js 16 with Pages Router, React 19
-- **Styling**: Tailwind CSS 3
-- **Content**: MDX blog posts in `data/blog/`, author bios in `data/authors/`
+- **Framework**: Next.js with App Router, React, TypeScript
+- **Styling**: Tailwind CSS v4
+- **Content**: MDX blog posts via contentlayer2 in `data/blog/`, author bios in `data/authors/`
 - **Deployment**: Static export to GitHub Pages via `output: 'export'`
-- **Images**: Unoptimized (`images.unoptimized = true`) for static export compatibility
+- **Images**: Unoptimized for static export compatibility
+- **Comments**: Giscus (GitHub Discussions)
+- **Search**: kbar (local search)
 
 ## Key Directories
 
 | Directory | Purpose |
 |-----------|---------|
-| `pages/` | Next.js pages (Pages Router) |
+| `app/` | Next.js App Router pages and layouts |
 | `components/` | React components |
 | `layouts/` | MDX page layouts (`AuthorLayout`, `ListLayout`, `PostLayout`, `PostSimple`) |
-| `data/` | Blog posts (MDX), site metadata, nav links, projects |
-| `lib/` | Utilities: MDX processing, RSS generation, tag handling |
-| `scripts/` | Build scripts (sitemap generation) |
-| `public/` | Static assets |
+| `data/` | Blog posts (MDX), site metadata, nav links, projects, author info |
 | `css/` | Tailwind CSS entry point |
+| `public/` | Static assets |
+| `scripts/` | Build scripts |
 
 ## Commands
 
 ```sh
-npm run dev       # Start dev server
-npm run build     # Build static export (uses webpack via --webpack flag)
-npm run export    # Post-build: generate sitemap
-npm run lint      # ESLint with auto-fix
-npm run analyze   # Bundle analysis
+yarn dev      # Start dev server
+yarn build    # Build (set EXPORT=1 for static export)
+yarn lint     # ESLint
+yarn analyze  # Bundle analysis (set ANALYZE=true)
 ```
-
-CI runs `build` then `export` sequentially. The `build` step produces static output in `out/` (via `output: 'export'`), then `export` generates the sitemap.
 
 ## Architecture Notes
 
-- **Static export only**: `output: 'export'` in `next.config.js`. No server-side features (API routes, headers(), rewrites, middleware). All pages are statically generated.
-- **MDX layouts**: Registered in `components/MDXComponents.js` via a static `layouts` map. Adding a new layout requires updating this map.
-- **Image component**: `components/Image.js` wraps `next/image` with `unoptimized` images for static export.
-- **Config plugins**: `next.config.js` applies `withBundleAnalyzer`.
-- **Site metadata**: `data/siteMetadata.js` holds all site config including comment system (Giscus), analytics, and newsletter settings. Giscus config uses environment variables.
+- **App Router**: Pages in `app/`, layouts in `layouts/`.
+- **contentlayer2**: Processes MDX files from `data/` directory. Config in `contentlayer.config.ts`.
+- **Static export**: Set `EXPORT=1` and `UNOPTIMIZED=1` env vars for GitHub Pages deployment.
+- **Site metadata**: `data/siteMetadata.js` holds all site config.
+- **Author info**: `data/authors/default.mdx` for about page content.
 
 ## Conventions
 
-- Follow existing code patterns. This is a JavaScript (not TypeScript) codebase.
+- TypeScript codebase with `.tsx`/`.ts` files.
+- Blog posts use `.mdx` extension with YAML frontmatter.
 - Components use default exports. Named exports for utilities.
-- Blog posts use MDX with YAML frontmatter (`title`, `date`, `tags`, `draft`, `summary`, `layout`).
-- `layout` in frontmatter must match a key in the `layouts` map in `MDXComponents.js`.
+- Follow existing code patterns.
 
 ## Environment Variables
 

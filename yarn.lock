@@ -4972,12 +4972,12 @@ __metadata:
   linkType: hard
 
 "brace-expansion@npm:^1.1.7":
-  version: 1.1.14
-  resolution: "brace-expansion@npm:1.1.14"
+  version: 1.1.16
+  resolution: "brace-expansion@npm:1.1.16"
   dependencies:
     balanced-match: ^1.0.0
     concat-map: 0.0.1
-  checksum: 2de747a5891ea0d3a1946ea1ae26e056a47f7ea8d42a3009e1736ec3a31a5aa69a3c5da59d998426773553afe4c258e5b12d7953b534fa7f2cf12ce92eed4931
+  checksum: 11ab2d5b39d61bc0d0de9240a5d08a5f210a5650885ca4876271ef5996b4c5d172d697b501d673fe099ab721aa8bf0348507ad23a6148e169856209d2f9cab94
   languageName: node
   linkType: hard
 
@@ -10209,14 +10209,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.5.17":
-  version: 8.5.17
-  resolution: "postcss@npm:8.5.17"
+"postcss@npm:^8.5.18":
+  version: 8.5.18
+  resolution: "postcss@npm:8.5.18"
   dependencies:
     nanoid: ^3.3.12
     picocolors: ^1.1.1
     source-map-js: ^1.2.1
-  checksum: 5dfa52963e1044eb6c622efa047bf7b48aee0a6cce5d6c34788024ee7dd1540dc50a84dc1a56f968cebb84f3c8213d9f2582ce1deafc10c7342f3a538cf9d7b1
+  checksum: 924b71b066ada1909b741970b53529b95a6589106302a154cd14b2fae0c8186144be2bb1e0c45e0f3e530474cf92afa01d790afa8b71dcd60c98ca8ee42f66c1
   languageName: node
   linkType: hard
 
@@ -12042,7 +12042,7 @@ __metadata:
     next-contentlayer2: 0.5.8
     next-themes: ^0.4.6
     pliny: 0.4.1
-    postcss: ^8.5.17
+    postcss: ^8.5.18
     prettier: ^3.8.1
     prettier-plugin-tailwindcss: ^0.7.2
     react: 19.2.4

@@ -5009,12 +5009,12 @@ __metadata:
   linkType: hard
 
 "brace-expansion@npm:^1.1.7":
-  version: 1.1.18
-  resolution: "brace-expansion@npm:1.1.18"
+  version: 1.1.21
+  resolution: "brace-expansion@npm:1.1.21"
   dependencies:
     balanced-match: ^1.0.0
     concat-map: 0.0.1
-  checksum: aa84023a4118f9185b6f8c71ca3467c945878b141ba340261de209676442f81b08db5b7c7c119707cdecb7322fcfcdb71d8ffea55db9d1aad673d7c65469211f
+  checksum: b841b4198a0ab8a1b433920ed65b46a9b4368c0ad1f95b2ed229a682c7d7d5b5839620204b5644a05c967d29e66bdf0a59b1115e74e0f27761d0dc02f5e0d835
   languageName: node
   linkType: hard
 
@@ -7652,12 +7652,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"image-size@npm:2.0.2":
-  version: 2.0.2
-  resolution: "image-size@npm:2.0.2"
+"image-size@npm:2.0.3":
+  version: 2.0.3
+  resolution: "image-size@npm:2.0.3"
   bin:
     image-size: bin/image-size.js
-  checksum: 33c3fafdd8af6bb2727bca51c4bae6e6dac16e9715337a6685a1af29fcbf7a2f9ec75eeaaa61e82d20f74d6f1fa748110936e32b1dbea4521217133eb159a29d
+  checksum: 2367928e16cebb913ce1cc8ec390fa994542755826454d6bc3e010fa3e40b3e7f53f506dac6d90475767ce8e0093cc6e39242174322817272e696e39551ba3b2
   languageName: node
   linkType: hard
 
@@ -12110,7 +12110,7 @@ __metadata:
     gray-matter: ^4.0.3
     hast-util-from-html-isomorphic: ^2.0.0
     husky: ^9.1.7
-    image-size: 2.0.2
+    image-size: 2.0.3
     lint-staged: ^16.2.7
     next: 15.5.24
     next-contentlayer2: 0.5.8
